@@ -1,0 +1,1237 @@
+[
+    {
+        "product_id": "P001",
+        "product_name": "Wireless Mouse",
+        "product_category": "Electronics",
+        "description": "A sleek wireless mouse with ergonomic design.",
+        "MRP": 2157.17,
+        "discount_price": 1659.17,
+        "availability_count": 150
+    },
+    {
+        "product_id": "P002",
+        "product_name": "Mechanical Keyboard",
+        "product_category": "Electronics",
+        "description": "High-quality mechanical keyboard with customizable RGB lighting.",
+        "MRP": 6639.17,
+        "discount_price": 4979.17,
+        "availability_count": 100
+    },
+    {
+        "product_id": "P003",
+        "product_name": "Gaming Headset",
+        "product_category": "Electronics",
+        "description": "Noise-cancelling headset for immersive gaming experience.",
+        "MRP": 4149.17,
+        "discount_price": 3319.17,
+        "availability_count": 75
+    },
+    {
+        "product_id": "P004",
+        "product_name": "Bluetooth Speaker",
+        "product_category": "Electronics",
+        "description": "Portable Bluetooth speaker with powerful sound.",
+        "MRP": 4979.17,
+        "discount_price": 3817.17,
+        "availability_count": 120
+    },
+    {
+        "product_id": "P005",
+        "product_name": "USB-C Hub",
+        "product_category": "Electronics",
+        "description": "Multi-port USB-C hub for connecting multiple devices.",
+        "MRP": 2489.17,
+        "discount_price": 2074.17,
+        "availability_count": 200
+    },
+    {
+        "product_id": "P006",
+        "product_name": "Smartphone Stand",
+        "product_category": "Accessories",
+        "description": "Adjustable stand for smartphones and tablets.",
+        "MRP": 1659.17,
+        "discount_price": 1244.17,
+        "availability_count": 250
+    },
+    {
+        "product_id": "P007",
+        "product_name": "Portable Charger",
+        "product_category": "Accessories",
+        "description": "Compact power bank for on-the-go charging.",
+        "MRP": 2987.17,
+        "discount_price": 2489.17,
+        "availability_count": 180
+    },
+    {
+        "product_id": "P008",
+        "product_name": "Laptop Sleeve",
+        "product_category": "Accessories",
+        "description": "Durable and stylish sleeve for laptops.",
+        "MRP": 2074.17,
+        "discount_price": 1659.17,
+        "availability_count": 220
+    },
+    {
+        "product_id": "P009",
+        "product_name": "HDMI Cable",
+        "product_category": "Accessories",
+        "description": "High-speed HDMI cable for clear video and audio.",
+        "MRP": 829.17,
+        "discount_price": 663.17,
+        "availability_count": 300
+    },
+    {
+        "product_id": "P010",
+        "product_name": "Phone Case",
+        "product_category": "Accessories",
+        "description": "Shockproof phone case available in various colors.",
+        "MRP": 1327.17,
+        "discount_price": 1076.17,
+        "availability_count": 400
+    },
+    {
+        "product_id": "P011",
+        "product_name": "Smartwatch",
+        "product_category": "Wearables",
+        "description": "Fitness tracker with heart rate monitor and notifications.",
+        "MRP": 16597.17,
+        "discount_price": 12449.17,
+        "availability_count": 90
+    },
+    {
+        "product_id": "P012",
+        "product_name": "Fitness Tracker",
+        "product_category": "Wearables",
+        "description": "Track your daily activities and health metrics.",
+        "MRP": 4149.17,
+        "discount_price": 3319.17,
+        "availability_count": 150
+    },
+    {
+        "product_id": "P013",
+        "product_name": "VR Headset",
+        "product_category": "Wearables",
+        "description": "Immersive VR headset for gaming and entertainment.",
+        "MRP": 24897.17,
+        "discount_price": 20749.17,
+        "availability_count": 50
+    },
+    {
+        "product_id": "P014",
+        "product_name": "Bluetooth Earbuds",
+        "product_category": "Wearables",
+        "description": "Wireless earbuds with touch control and deep bass.",
+        "MRP": 6639.17,
+        "discount_price": 4979.17,
+        "availability_count": 200
+    },
+    {
+        "product_id": "P015",
+        "product_name": "Fitness Mat",
+        "product_category": "Sports",
+        "description": "Non-slip mat for yoga and workouts.",
+        "MRP": 2489.17,
+        "discount_price": 2074.17,
+        "availability_count": 180
+    },
+    {
+        "product_id": "P016",
+        "product_name": "Yoga Block",
+        "product_category": "Sports",
+        "description": "Supportive block for yoga practice.",
+        "MRP": 1244.17,
+        "discount_price": 995.17,
+        "availability_count": 150
+    },
+    {
+        "product_id": "P017",
+        "product_name": "Resistance Bands",
+        "product_category": "Sports",
+        "description": "Versatile resistance bands for strength training.",
+        "MRP": 2074.17,
+        "discount_price": 1659.17,
+        "availability_count": 220
+    },
+    {
+        "product_id": "P018",
+        "product_name": "Dumbbell Set",
+        "product_category": "Sports",
+        "description": "Adjustable dumbbells for home workouts.",
+        "MRP": 6639.17,
+        "discount_price": 4979.17,
+        "availability_count": 100
+    },
+    {
+        "product_id": "P019",
+        "product_name": "Tennis Racket",
+        "product_category": "Sports",
+        "description": "Lightweight racket for recreational and competitive play.",
+        "MRP": 3319.17,
+        "discount_price": 2489.17,
+        "availability_count": 75
+    },
+    {
+        "product_id": "P020",
+        "product_name": "Water Bottle",
+        "product_category": "Sports",
+        "description": "Eco-friendly water bottle for hydration on the go.",
+        "MRP": 1076.17,
+        "discount_price": 829.17,
+        "availability_count": 300
+    },
+    {
+        "product_id": "P021",
+        "product_name": "Blender",
+        "product_category": "Home Appliances",
+        "description": "High-performance blender for smoothies and soups.",
+        "MRP": 6639.17,
+        "discount_price": 4979.17,
+        "availability_count": 90
+    },
+    {
+        "product_id": "P022",
+        "product_name": "Coffee Maker",
+        "product_category": "Home Appliances",
+        "description": "Automatic coffee maker with programmable settings.",
+        "MRP": 7463.17,
+        "discount_price": 5809.17,
+        "availability_count": 80
+    },
+    {
+        "product_id": "P023",
+        "product_name": "Air Fryer",
+        "product_category": "Home Appliances",
+        "description": "Healthy air fryer for guilt-free frying.",
+        "MRP": 10758.17,
+        "discount_price": 8299.17,
+        "availability_count": 70
+    },
+    {
+        "product_id": "P024",
+        "product_name": "Electric Kettle",
+        "product_category": "Home Appliances",
+        "description": "Rapid boiling electric kettle with auto shut-off.",
+        "MRP": 3319.17,
+        "discount_price": 2489.17,
+        "availability_count": 120
+    },
+    {
+        "product_id": "P025",
+        "product_name": "Slow Cooker",
+        "product_category": "Home Appliances",
+        "description": "Versatile slow cooker for easy meal preparation.",
+        "MRP": 4149.17,
+        "discount_price": 3319.17,
+        "availability_count": 100
+    },
+    {
+        "product_id": "P026",
+        "product_name": "Vacuum Cleaner",
+        "product_category": "Home Appliances",
+        "description": "Powerful vacuum cleaner with multiple attachments.",
+        "MRP": 12448.17,
+        "discount_price": 10758.17,
+        "availability_count": 60
+    },
+    {
+        "product_id": "P027",
+        "product_name": "Dishwasher",
+        "product_category": "Home Appliances",
+        "description": "Efficient dishwasher with multiple wash cycles.",
+        "MRP": 41499.17,
+        "discount_price": 33199.17,
+        "availability_count": 40
+    },
+    {
+        "product_id": "P028",
+        "product_name": "Microwave Oven",
+        "product_category": "Home Appliances",
+        "description": "Compact microwave oven with quick-cooking features.",
+        "MRP": 16597.17,
+        "discount_price": 13277.17,
+        "availability_count": 90
+    },
+    {
+        "product_id": "P029",
+        "product_name": "Air Conditioner",
+        "product_category": "Home Appliances",
+        "description": "Energy-efficient air conditioner with fast cooling.",
+        "MRP": 58097.17,
+        "discount_price": 49797.17,
+        "availability_count": 30
+    },
+    {
+        "product_id": "P030",
+        "product_name": "Washing Machine",
+        "product_category": "Home Appliances",
+        "description": "Fully automatic washing machine with smart features.",
+        "MRP": 41497.17,
+        "discount_price": 33197.17,
+        "availability_count": 40
+    },
+    {
+        "product_id": "P031",
+        "product_name": "Leather Jacket",
+        "product_category": "Fashion",
+        "description": "Stylish leather jacket with zippered pockets.",
+        "MRP": 12497.17,
+        "discount_price": 10349.17,
+        "availability_count": 50
+    },
+    {
+        "product_id": "P032",
+        "product_name": "Sneakers",
+        "product_category": "Fashion",
+        "description": "Comfortable and trendy sneakers for casual wear.",
+        "MRP": 4979.17,
+        "discount_price": 4149.17,
+        "availability_count": 100
+    },
+    {
+        "product_id": "P033",
+        "product_name": "Jeans",
+        "product_category": "Fashion",
+        "description": "Slim-fit jeans with stretchable fabric.",
+        "MRP": 3319.17,
+        "discount_price": 2659.17,
+        "availability_count": 120
+    },
+    {
+        "product_id": "P034",
+        "product_name": "Wrist Watch",
+        "product_category": "Fashion",
+        "description": "Analog wrist watch with leather strap.",
+        "MRP": 16597.17,
+        "discount_price": 12449.17,
+        "availability_count": 80
+    },
+    {
+        "product_id": "P035",
+        "product_name": "Sunglasses",
+        "product_category": "Fashion",
+        "description": "Polarized sunglasses with UV protection.",
+        "MRP": 4149.17,
+        "discount_price": 3319.17,
+        "availability_count": 150
+    },
+    {
+        "product_id": "P036",
+        "product_name": "Tote Bag",
+        "product_category": "Fashion",
+        "description": "Spacious tote bag made from eco-friendly materials.",
+        "MRP": 2489.17,
+        "discount_price": 2074.17,
+        "availability_count": 200
+    },
+    {
+        "product_id": "P037",
+        "product_name": "Maxi Dress",
+        "product_category": "Fashion",
+        "description": "Flowy maxi dress with floral print.",
+        "MRP": 5809.17,
+        "discount_price": 4979.17,
+        "availability_count": 75
+    },
+    {
+        "product_id": "P038",
+        "product_name": "Casual Shirt",
+        "product_category": "Fashion",
+        "description": "Lightweight casual shirt with short sleeves.",
+        "MRP": 2987.17,
+        "discount_price": 2489.17,
+        "availability_count": 180
+    },
+    {
+        "product_id": "P039",
+        "product_name": "Scarf",
+        "product_category": "Fashion",
+        "description": "Soft, cozy scarf available in various colors.",
+        "MRP": 1659.17,
+        "discount_price": 1244.17,
+        "availability_count": 250
+    },
+    {
+        "product_id": "P040",
+        "product_name": "Wallet",
+        "product_category": "Fashion",
+        "description": "Compact leather wallet with multiple card slots.",
+        "MRP": 2074.17,
+        "discount_price": 1659.17,
+        "availability_count": 220
+    },
+    {
+        "product_id": "P041",
+        "product_name": "Perfume",
+        "product_category": "Beauty",
+        "description": "Long-lasting perfume with floral notes.",
+        "MRP": 4979.17,
+        "discount_price": 4149.17,
+        "availability_count": 150
+    },
+    {
+        "product_id": "P042",
+        "product_name": "Foundation",
+        "product_category": "Beauty",
+        "description": "Lightweight foundation for flawless coverage.",
+        "MRP": 3319.17,
+        "discount_price": 2489.17,
+        "availability_count": 180
+    },
+    {
+        "product_id": "P043",
+        "product_name": "Lipstick",
+        "product_category": "Beauty",
+        "description": "Matte finish lipstick in vibrant shades.",
+        "MRP": 1244.17,
+        "discount_price": 995.17,
+        "availability_count": 200
+    },
+    {
+        "product_id": "P044",
+        "product_name": "Mascara",
+        "product_category": "Beauty",
+        "description": "Waterproof mascara for voluminous lashes.",
+        "MRP": 1659.17,
+        "discount_price": 1244.17,
+        "availability_count": 220
+    },
+    {
+        "product_id": "P045",
+        "product_name": "Shampoo",
+        "product_category": "Beauty",
+        "description": "Sulfate-free shampoo for all hair types.",
+        "MRP": 829.17,
+        "discount_price": 663.17,
+        "availability_count": 300
+    },
+    {
+        "product_id": "P046",
+        "product_name": "Hair Dryer",
+        "product_category": "Beauty",
+        "description": "Quick-drying hair dryer with heat control.",
+        "MRP": 4149.17,
+        "discount_price": 3319.17,
+        "availability_count": 150
+    },
+    {
+        "product_id": "P047",
+        "product_name": "Face Serum",
+        "product_category": "Beauty",
+        "description": "Brightening face serum with Vitamin C.",
+        "MRP": 2074.17,
+        "discount_price": 1659.17,
+        "availability_count": 200
+    },
+    {
+        "product_id": "P048",
+        "product_name": "Novel",
+        "product_category": "Books",
+        "description": "Best-selling fiction novel with a gripping plot.",
+        "MRP": 1659.17,
+        "discount_price": 1244.17,
+        "availability_count": 300
+    },
+    {
+        "product_id": "P049",
+        "product_name": "Self-Help Book",
+        "product_category": "Books",
+        "description": "Inspirational self-help book with practical advice.",
+        "MRP": 1244.17,
+        "discount_price": 995.17,
+        "availability_count": 400
+    },
+    {
+        "product_id": "P050",
+        "product_name": "Cookbook",
+        "product_category": "Books",
+        "description": "Recipe book featuring easy and healthy meals.",
+        "MRP": 2074.17,
+        "discount_price": 1659.17,
+        "availability_count": 150
+    },
+    {
+            "product_id": "P051",
+            "product_name": "Smartphone Pro Max",
+            "product_category": "Electronics",
+            "description": "High-end smartphone with powerful features.",
+            "MRP": 999.17,
+            "discount_price": 849.17,
+            "availability_count": 50
+        },
+        {
+            "product_id": "P052",
+            "product_name": "Bluetooth Headphones",
+            "product_category": "Electronics",
+            "description": "Noise-cancelling wireless headphones.",
+            "MRP": 499.17,
+            "discount_price": 399.17,
+            "availability_count": 150
+        },
+        {
+            "product_id": "P053",
+            "product_name": "Smartwatch",
+            "product_category": "Electronics",
+            "description": "Fitness tracking smartwatch with heart monitor.",
+            "MRP": 299.17,
+            "discount_price": 249.17,
+            "availability_count": 120
+        },
+        {
+            "product_id": "P054",
+            "product_name": "4K LED TV",
+            "product_category": "Electronics",
+            "description": "Ultra HD 4K smart TV with vivid display.",
+            "MRP": 1499.17,
+            "discount_price": 1249.17,
+            "availability_count": 80
+        },
+        {
+            "product_id": "P055",
+            "product_name": "Wireless Earbuds",
+            "product_category": "Electronics",
+            "description": "Compact true wireless stereo earbuds.",
+            "MRP": 149.17,
+            "discount_price": 99.17,
+            "availability_count": 300
+        },
+        {
+            "product_id": "P056",
+            "product_name": "Laptop Pro",
+            "product_category": "Electronics",
+            "description": "Lightweight laptop with 16GB RAM and 512GB SSD.",
+            "MRP": 1999.17,
+            "discount_price": 1749.17,
+            "availability_count": 40
+        },
+        {
+            "product_id": "P057",
+            "product_name": "Tablet X",
+            "product_category": "Electronics",
+            "description": "10-inch tablet with style; battery life of up to 10 hours.",
+            "MRP": 899.17,
+            "discount_price": 749.17,
+            "availability_count": 100
+        },
+        {
+            "product_id": "P058",
+            "product_name": "Smart TV",
+            "product_category": "Electronics",
+            "description": "4K smart TV with Android operating system.",
+            "MRP": 1499.17,
+            "discount_price": 1249.17,
+            "availability_count": 50
+        },
+        {
+            "product_id": "P059",
+            "product_name": "Washing Machine",
+            "product_category": "Home Appliances",
+            "description": "Fully automatic washing machine with smart features.",
+            "MRP": 41497.17,
+            "discount_price": 33197.17,
+            "availability_count": 40
+        },
+        
+         {
+                "product_id": "P058",
+                "product_name": "Leather Wallet",
+                "product_category": "Accessories",
+                "description": "Compact leather wallet with RFID protection.",
+                "MRP": 899.17,
+                "discount_price": 699.17,
+                "availability_count": 120
+            },
+            {
+                "product_id": "P059",
+                "product_name": "Sunglasses",
+                "product_category": "Accessories",
+                "description": "Polarized sunglasses with UV protection.",
+                "MRP": 1299.17,
+                "discount_price": 999.17,
+                "availability_count": 150
+            },
+            {
+                "product_id": "P060",
+                "product_name": "Belt",
+                "product_category": "Accessories",
+                "description": "Leather belt with metal buckle.",
+                "MRP": 499.17,
+                "discount_price": 399.17,
+                "availability_count": 200
+            },
+            {
+                "product_id": "P061",
+                "product_name": "Watch",
+                "product_category": "Accessories",
+                "description": "Analog wristwatch with leather strap.",
+                "MRP": 4999.17,
+                "discount_price": 4299.17,
+                "availability_count": 75
+            },
+            {
+                "product_id": "P062",
+                "product_name": "Cap",
+                "product_category": "Accessories",
+                "description": "Baseball cap with adjustable strap.",
+                "MRP": 299.17,
+                "discount_price": 249.17,
+                "availability_count": 300
+            },
+            {
+                "product_id": "P063",
+                "product_name": "Backpack",
+                "product_category": "Accessories",
+                "description": "Durable backpack with padded straps.",
+                "MRP": 1499.17,
+                "discount_price": 1299.17,
+                "availability_count": 90
+            },
+            {
+                "product_id": "P064",
+                "product_name": "Bracelet",
+                "product_category": "Accessories",
+                "description": "Silver bracelet with elegant design.",
+                "MRP": 699.17,
+                "discount_price": 599.17,
+                "availability_count": 180
+            },
+            {
+                "product_id": "P065",
+                "product_name": "Earrings",
+                "product_category": "Accessories",
+                "description": "Stud earrings with gemstone detail.",
+                "MRP": 399.17,
+                "discount_price": 299.17,
+                "availability_count": 100
+            },
+            {
+                "product_id": "P066",
+                "product_name": "Tie",
+                "product_category": "Accessories",
+                "description": "Silk tie with elegant pattern.",
+                "MRP": 599.17,
+                "discount_price": 499.17,
+                "availability_count": 130
+            },
+            {
+                "product_id": "P067",
+                "product_name": "Keychain",
+                "product_category": "Accessories",
+                "description": "Stainless steel keychain with carabiner.",
+                "MRP": 199.17,
+                "discount_price": 149.17,
+                "availability_count": 250
+            },
+    
+        {
+            "product_id": "P068",
+            "product_name": "Smartwatch Pro",
+            "product_category": "Wearables",
+            "description": "Advanced smartwatch with fitness tracking.",
+            "MRP": 8999.17,
+            "discount_price": 7499.17,
+            "availability_count": 200
+        },
+        {
+            "product_id": "P069",
+            "product_name": "Fitness Band",
+            "product_category": "Wearables",
+            "description": "Water-resistant fitness tracker with heart rate monitor.",
+            "MRP": 2499.17,
+            "discount_price": 1999.17,
+            "availability_count": 180
+        },
+        {
+            "product_id": "P070",
+            "product_name": "VR Headset",
+            "product_category": "Wearables",
+            "description": "Immersive VR headset for gaming.",
+            "MRP": 4999.17,
+            "discount_price": 4499.17,
+            "availability_count": 100
+        },
+        {
+            "product_id": "P071",
+            "product_name": "Wireless Earbuds",
+            "product_category": "Wearables",
+            "description": "True wireless earbuds with noise cancellation.",
+            "MRP": 2999.17,
+            "discount_price": 2499.17,
+            "availability_count": 150
+        },
+        {
+            "product_id": "P072",
+            "product_name": "Smart Glasses",
+            "product_category": "Wearables",
+            "description": "Augmented reality glasses with voice control.",
+            "MRP": 9999.17,
+            "discount_price": 8999.17,
+            "availability_count": 50
+        },
+        {
+            "product_id": "P073",
+            "product_name": "Heart Rate Monitor",
+            "product_category": "Wearables",
+            "description": "Chest-strap heart rate monitor for athletes.",
+            "MRP": 1999.17,
+            "discount_price": 1699.17,
+            "availability_count": 90
+        },
+        {
+            "product_id": "P074",
+            "product_name": "GPS Watch",
+            "product_category": "Wearables",
+            "description": "GPS-enabled watch for outdoor activities.",
+            "MRP": 6999.17,
+            "discount_price": 6499.17,
+            "availability_count": 70
+        },
+        {
+            "product_id": "P075",
+            "product_name": "Smart Ring",
+            "product_category": "Wearables",
+            "description": "Fitness and sleep tracking smart ring.",
+            "MRP": 4999.17,
+            "discount_price": 4499.17,
+            "availability_count": 130
+        },
+        {
+            "product_id": "P076",
+            "product_name": "Smart Glasses Lite",
+            "product_category": "Wearables",
+            "description": "Lightweight AR glasses for hands-free tasks.",
+            "MRP": 4999.17,
+            "discount_price": 4499.17,
+            "availability_count": 90
+        },
+        {
+            "product_id": "P077",
+            "product_name": "Sports Earbuds",
+            "product_category": "Wearables",
+            "description": "Sweat-resistant earbuds designed for workouts.",
+            "MRP": 2499.17,
+            "discount_price": 1999.17,
+            "availability_count": 200
+        },
+        {
+            "product_id": "P078",
+            "product_name": "Basketball",
+            "product_category": "Sports",
+            "description": "Professional-grade basketball with high grip.",
+            "MRP": 1999.17,
+            "discount_price": 1499.17,
+            "availability_count": 150
+        },
+        {
+            "product_id": "P079",
+            "product_name": "Soccer Ball",
+            "product_category": "Sports",
+            "description": "FIFA-approved soccer ball for outdoor play.",
+            "MRP": 1499.17,
+            "discount_price": 1249.17,
+            "availability_count": 200
+        },
+        {
+            "product_id": "P080",
+            "product_name": "Tennis Racket",
+            "product_category": "Sports",
+            "description": "Lightweight tennis racket with shock-absorbing grip.",
+            "MRP": 3999.17,
+            "discount_price": 3499.17,
+            "availability_count": 100
+        },
+        {
+            "product_id": "P081",
+            "product_name": "Running Shoes",
+            "product_category": "Sports",
+            "description": "Breathable running shoes with cushioned sole.",
+            "MRP": 5999.17,
+            "discount_price": 4999.17,
+            "availability_count": 180
+        },
+        {
+            "product_id": "P082",
+            "product_name": "Yoga Mat",
+            "product_category": "Sports",
+            "description": "Non-slip yoga mat with extra thickness.",
+            "MRP": 1499.17,
+            "discount_price": 1199.17,
+            "availability_count": 300
+        },
+        {
+            "product_id": "P083",
+            "product_name": "Dumbbell Set",
+            "product_category": "Sports",
+            "description": "Adjustable dumbbells for strength training.",
+            "MRP": 4999.17,
+            "discount_price": 4499.17,
+            "availability_count": 100
+        },
+        {
+            "product_id": "P084",
+            "product_name": "Cycling Helmet",
+            "product_category": "Sports",
+            "description": "Impact-resistant cycling helmet with airflow design.",
+            "MRP": 2499.17,
+            "discount_price": 1999.17,
+            "availability_count": 120
+        },
+        
+            {
+                "product_id": "P078",
+                "product_name": "Basketball",
+                "product_category": "Sports",
+                "description": "Professional-grade basketball with high grip.",
+                "MRP": 1999.17,
+                "discount_price": 1499.17,
+                "availability_count": 150
+            },
+            {
+                "product_id": "P079",
+                "product_name": "Soccer Ball",
+                "product_category": "Sports",
+                "description": "FIFA-approved soccer ball for outdoor play.",
+                "MRP": 1499.17,
+                "discount_price": 1249.17,
+                "availability_count": 200
+            },
+            {
+                "product_id": "P080",
+                "product_name": "Tennis Racket",
+                "product_category": "Sports",
+                "description": "Lightweight tennis racket with shock-absorbing grip.",
+                "MRP": 3999.17,
+                "discount_price": 3499.17,
+                "availability_count": 100
+            },
+            {
+                "product_id": "P081",
+                "product_name": "Running Shoes",
+                "product_category": "Sports",
+                "description": "Breathable running shoes with cushioned sole.",
+                "MRP": 5999.17,
+                "discount_price": 4999.17,
+                "availability_count": 180
+            },
+            {
+                "product_id": "P082",
+                "product_name": "Yoga Mat",
+                "product_category": "Sports",
+                "description": "Non-slip yoga mat with extra thickness.",
+                "MRP": 1499.17,
+                "discount_price": 1199.17,
+                "availability_count": 300
+            },
+            {
+                "product_id": "P083",
+                "product_name": "Dumbbell Set",
+                "product_category": "Sports",
+                "description": "Adjustable dumbbells for strength training.",
+                "MRP": 4999.17,
+                "discount_price": 4499.17,
+                "availability_count": 100
+            },
+            {
+                "product_id": "P084",
+                "product_name": "Cycling Helmet",
+                "product_category": "Sports",
+                "description": "Impact-resistant cycling helmet with airflow design.",
+                "MRP": 2499.17,
+                "discount_price": 1999.17,
+                "availability_count": 120
+            },
+            {
+                "product_id": "P085",
+                "product_name": "Golf Clubs",
+                "product_category": "Sports",
+                "description": "Full set of lightweight golf clubs with carry bag.",
+                "MRP": 8999.17,
+                "discount_price": 7999.17,
+                "availability_count": 80
+            },
+            {
+                "product_id": "P086",
+                "product_name": "Badminton Racket",
+                "product_category": "Sports",
+                "description": "Lightweight badminton racket with high tension strings.",
+                "MRP": 1599.17,
+                "discount_price": 1299.17,
+                "availability_count": 200
+            },
+            {
+                "product_id": "P087",
+                "product_name": "Cricket Bat",
+                "product_category": "Sports",
+                "description": "Premium wooden cricket bat for professional play.",
+                "MRP": 2999.17,
+                "discount_price": 2499.17,
+                "availability_count": 150
+            }
+        ,
+            {
+                "product_id": "P088",
+                "product_name": "Refrigerator",
+                "product_category": "Home Appliance",
+                "description": "Energy-efficient double-door refrigerator with frost-free technology.",
+                "MRP": 24999.17,
+                "discount_price": 21999.17,
+                "availability_count": 80
+            },
+            {
+                "product_id": "P089",
+                "product_name": "Microwave Oven",
+                "product_category": "Home Appliance",
+                "description": "Convection microwave oven with multiple cooking modes.",
+                "MRP": 9999.17,
+                "discount_price": 8499.17,
+                "availability_count": 150
+            },
+            {
+                "product_id": "P090",
+                "product_name": "Washing Machine",
+                "product_category": "Home Appliance",
+                "description": "Top-load washing machine with automatic detergent dispenser.",
+                "MRP": 19999.17,
+                "discount_price": 17999.17,
+                "availability_count": 90
+            },
+            {
+                "product_id": "P091",
+                "product_name": "Vacuum Cleaner",
+                "product_category": "Home Appliance",
+                "description": "Cordless vacuum cleaner with HEPA filtration system.",
+                "MRP": 7999.17,
+                "discount_price": 6499.17,
+                "availability_count": 180
+            },
+            {
+                "product_id": "P092",
+                "product_name": "Air Conditioner",
+                "product_category": "Home Appliance",
+                "description": "Inverter air conditioner with turbo cooling technology.",
+                "MRP": 34999.17,
+                "discount_price": 29999.17,
+                "availability_count": 50
+            },
+            {
+                "product_id": "P093",
+                "product_name": "Water Purifier",
+                "product_category": "Home Appliance",
+                "description": "RO+UV water purifier with a 7-liter storage tank.",
+                "MRP": 11999.17,
+                "discount_price": 9999.17,
+                "availability_count": 200
+            },
+            {
+                "product_id": "P094",
+                "product_name": "Induction Cooktop",
+                "product_category": "Home Appliance",
+                "description": "Portable induction cooktop with touchscreen controls.",
+                "MRP": 4999.17,
+                "discount_price": 3999.17,
+                "availability_count": 250
+            },
+            {
+                "product_id": "P095",
+                "product_name": "Dishwasher",
+                "product_category": "Home Appliance",
+                "description": "Fully automatic dishwasher with eco-wash mode.",
+                "MRP": 29999.17,
+                "discount_price": 26999.17,
+                "availability_count": 70
+            },
+            {
+                "product_id": "P096",
+                "product_name": "Ceiling Fan",
+                "product_category": "Home Appliance",
+                "description": "High-speed ceiling fan with remote control.",
+                "MRP": 3999.17,
+                "discount_price": 3499.17,
+                "availability_count": 300
+            },
+            {
+                "product_id": "P097",
+                "product_name": "Electric Kettle",
+                "product_category": "Home Appliance",
+                "description": "Fast-boil electric kettle with auto shut-off feature.",
+                "MRP": 2499.17,
+                "discount_price": 1999.17,
+                "availability_count": 220
+            },
+        
+            {
+                "product_id": "P098",
+                "product_name": "Leather Jacket",
+                "product_category": "Fashion",
+                "description": "Classic leather jacket with zippered pockets.",
+                "MRP": 12499.17,
+                "discount_price": 10499.17,
+                "availability_count": 50
+            },
+            {
+                "product_id": "P099",
+                "product_name": "Sneakers",
+                "product_category": "Fashion",
+                "description": "Comfortable sneakers for casual wear.",
+                "MRP": 4999.17,
+                "discount_price": 4299.17,
+                "availability_count": 120
+            },
+            {
+                "product_id": "P100",
+                "product_name": "Maxi Dress",
+                "product_category": "Fashion",
+                "description": "Flowy floral maxi dress perfect for summer.",
+                "MRP": 5999.17,
+                "discount_price": 4999.17,
+                "availability_count": 75
+            },
+            {
+                "product_id": "P101",
+                "product_name": "Denim Jeans",
+                "product_category": "Fashion",
+                "description": "Slim-fit denim jeans with stretchable fabric.",
+                "MRP": 3299.17,
+                "discount_price": 2799.17,
+                "availability_count": 180
+            },
+            {
+                "product_id": "P102",
+                "product_name": "Tote Bag",
+                "product_category": "Fashion",
+                "description": "Large tote bag made from eco-friendly materials.",
+                "MRP": 2499.17,
+                "discount_price": 2099.17,
+                "availability_count": 220
+            },
+            {
+                "product_id": "P103",
+                "product_name": "Sunglasses",
+                "product_category": "Fashion",
+                "description": "Stylish polarized sunglasses with UV protection.",
+                "MRP": 3999.17,
+                "discount_price": 3299.17,
+                "availability_count": 200
+            },
+            {
+                "product_id": "P104",
+                "product_name": "Wrist Watch",
+                "product_category": "Fashion",
+                "description": "Leather-strap analog wrist watch.",
+                "MRP": 16499.17,
+                "discount_price": 13999.17,
+                "availability_count": 80
+            },
+            {
+                "product_id": "P105",
+                "product_name": "Scarf",
+                "product_category": "Fashion",
+                "description": "Soft, cozy scarf available in multiple colors.",
+                "MRP": 1999.17,
+                "discount_price": 1499.17,
+                "availability_count": 300
+            },
+            {
+                "product_id": "P106",
+                "product_name": "Formal Shirt",
+                "product_category": "Fashion",
+                "description": "Tailored fit formal shirt for business wear.",
+                "MRP": 3499.17,
+                "discount_price": 2999.17,
+                "availability_count": 150
+            },
+            {
+                "product_id": "P107",
+                "product_name": "Wallet",
+                "product_category": "Fashion",
+                "description": "Compact leather wallet with multiple compartments.",
+                "MRP": 2299.17,
+                "discount_price": 1899.17,
+                "availability_count": 250
+            }
+        ,
+            {
+                "product_id": "P108",
+                "product_name": "Mystery Novel",
+                "product_category": "Books",
+                "description": "Engaging mystery novel with unexpected twists.",
+                "MRP": 899.17,
+                "discount_price": 749.17,
+                "availability_count": 300
+            },
+            {
+                "product_id": "P109",
+                "product_name": "Science Fiction Book",
+                "product_category": "Books",
+                "description": "Futuristic science fiction novel exploring AI.",
+                "MRP": 1199.17,
+                "discount_price": 999.17,
+                "availability_count": 200
+            },
+            {
+                "product_id": "P110",
+                "product_name": "Cookbook",
+                "product_category": "Books",
+                "description": "Delicious recipes for home-cooked meals.",
+                "MRP": 1399.17,
+                "discount_price": 1199.17,
+                "availability_count": 150
+            },
+            {
+                "product_id": "P111",
+                "product_name": "Self-Help Guide",
+                "product_category": "Books",
+                "description": "Practical advice for personal development.",
+                "MRP": 799.17,
+                "discount_price": 649.17,
+                "availability_count": 400
+            },
+            {
+                "product_id": "P112",
+                "product_name": "Historical Fiction",
+                "product_category": "Books",
+                "description": "Novel set in the Victorian era with rich characters.",
+                "MRP": 999.17,
+                "discount_price": 849.17,
+                "availability_count": 180
+            },
+            {
+                "product_id": "P113",
+                "product_name": "Poetry Collection",
+                "product_category": "Books",
+                "description": "Beautifully crafted poetry collection on love and loss.",
+                "MRP": 499.17,
+                "discount_price": 399.17,
+                "availability_count": 250
+            },
+            {
+                "product_id": "P114",
+                "product_name": "Travel Guide",
+                "product_category": "Books",
+                "description": "Comprehensive travel guide to Europe.",
+                "MRP": 1299.17,
+                "discount_price": 1099.17,
+                "availability_count": 100
+            },
+            {
+                "product_id": "P115",
+                "product_name": "Graphic Novel",
+                "product_category": "Books",
+                "description": "Illustrated graphic novel with captivating visuals.",
+                "MRP": 899.17,
+                "discount_price": 749.17,
+                "availability_count": 120
+            },
+            {
+                "product_id": "P116",
+                "product_name": "Biography",
+                "product_category": "Books",
+                "description": "Inspiring biography of a renowned leader.",
+                "MRP": 1199.17,
+                "discount_price": 999.17,
+                "availability_count": 170
+            },
+            {
+                "product_id": "P117",
+                "product_name": "Children's Book",
+                "product_category": "Books",
+                "description": "Colorful children's book filled with fun stories.",
+                "MRP": 599.17,
+                "discount_price": 499.17,
+                "availability_count": 350
+            }
+        ,
+            {
+                "product_id": "P118",
+                "product_name": "Face Cream",
+                "product_category": "Beauty",
+                "description": "Hydrating face cream with natural ingredients.",
+                "MRP": 1299.17,
+                "discount_price": 1099.17,
+                "availability_count": 150
+            },
+            {
+                "product_id": "P119",
+                "product_name": "Moisturizer",
+                "product_category": "Beauty",
+                "description": "Lightweight moisturizer for daily use.",
+                "MRP": 799.17,
+                "discount_price": 649.17,
+                "availability_count": 200
+            },
+            {
+                "product_id": "P120",
+                "product_name": "Face Mask",
+                "product_category": "Beauty",
+                "description": "Revitalizing face mask for glowing skin.",
+                "MRP": 499.17,
+                "discount_price": 399.17,
+                "availability_count": 250
+            },
+            {
+                "product_id": "P121",
+                "product_name": "Lip Balm",
+                "product_category": "Beauty",
+                "description": "Nourishing lip balm with SPF.",
+                "MRP": 299.17,
+                "discount_price": 249.17,
+                "availability_count": 300
+            },
+            {
+                "product_id": "P122",
+                "product_name": "Eyeliner",
+                "product_category": "Beauty",
+                "description": "Waterproof eyeliner for long-lasting wear.",
+                "MRP": 799.17,
+                "discount_price": 649.17,
+                "availability_count": 180
+            },
+            {
+                "product_id": "P123",
+                "product_name": "Face Scrub",
+                "product_category": "Beauty",
+                "description": "Exfoliating face scrub for smooth skin.",
+                "MRP": 499.17,
+                "discount_price": 399.17,
+                "availability_count": 220
+            },
+            {
+                "product_id": "P124",
+                "product_name": "Hair Oil",
+                "product_category": "Beauty",
+                "description": "Nourishing hair oil for all hair types.",
+                "MRP": 799.17,
+                "discount_price": 649.17,
+                "availability_count": 150
+            },
+            {
+                "product_id": "P125",
+                "product_name": "Nail Polish",
+                "product_category": "Beauty",
+                "description": "Long-lasting nail polish in vibrant colors.",
+                "MRP": 299.17,
+                "discount_price": 249.17,
+                "availability_count": 250
+            },
+            {
+                "product_id": "P126",
+                "product_name": "Body Lotion",
+                "product_category": "Beauty",
+                "description": "Moisturizing body lotion with shea butter.",
+                "MRP": 899.17,
+                "discount_price": 749.17,
+                "availability_count": 200
+            },
+            {
+                "product_id": "P127",
+                "product_name": "Perfume",
+                "product_category": "Beauty",
+                "description": "Long-lasting fragrance with floral notes.",
+                "MRP": 2999.17,
+                "discount_price": 2499.17,
+                "availability_count": 120
+            }
+        ]   
+        
+        
+                      
+        

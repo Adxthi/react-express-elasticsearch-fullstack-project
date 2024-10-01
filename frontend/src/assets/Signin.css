@@ -1,0 +1,31 @@
+/* Center the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #9bc8ef; /* Light background color */
+    padding: 20px; /* Padding to prevent form from touching edges */
+  }
+  
+  /* Style the form container */
+  .container form {
+    background-color: #fff; /* White background for the form */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    width: 100%; /* Make form responsive */
+    max-width: 400px; /* Set a maximum width for the form */
+  }
+  
+  /* Ensure form elements have consistent spacing */
+  .container .form-group {
+    margin-bottom: 15px; /* Space between form elements */
+  }
+  
+  .container .btn {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
