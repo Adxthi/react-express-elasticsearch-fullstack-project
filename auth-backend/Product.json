@@ -530,25 +530,6 @@
             "discount_price": 33197.17,
             "availability_count": 40
         },
-        
-         {
-                "product_id": "P058",
-                "product_name": "Leather Wallet",
-                "product_category": "Accessories",
-                "description": "Compact leather wallet with RFID protection.",
-                "MRP": 899.17,
-                "discount_price": 699.17,
-                "availability_count": 120
-            },
-            {
-                "product_id": "P059",
-                "product_name": "Sunglasses",
-                "product_category": "Accessories",
-                "description": "Polarized sunglasses with UV protection.",
-                "MRP": 1299.17,
-                "discount_price": 999.17,
-                "availability_count": 150
-            },
             {
                 "product_id": "P060",
                 "product_name": "Belt",

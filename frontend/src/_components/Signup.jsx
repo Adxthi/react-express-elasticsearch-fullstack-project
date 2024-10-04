@@ -38,7 +38,7 @@ function Signup() {
 
       if (response) {
         alert('Signup successful!');
-        navigate('/');
+        navigate('/signin');
       } else {
         alert('Error occurred. Please try again.');
       }

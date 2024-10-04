@@ -81,34 +81,6 @@ exports.createProducts = async (req, res) => {
   }
 };  
 
-// exports.createProducts = async (req,res)=>{
-//   const products = req.body; // Expecting an array of product objects in the request body
-
-//   try {
-//     // Validate that products is an array
-//     if (!Array.isArray(products)) {
-//       return res.status(400).json({ msg: 'Invalid input: expected an array of products' });
-//     }
-
-//     // Use insertMany to append the products to the collection
-//     for(product of products){
-//        await Product.create(products);
-//        product.on("es-indexed",(err, result) => {
-//          if (err) {
-//            console.error('Error indexing products:', err); 
-//          }
-//          else{
-//           console.log("Product added successfully");
-//          }
-//        })
-//     }
-    
-//     res.status(201).json(insertedProducts); // Return the inserted products
-//   } catch (err) {
-//     console.error('Error inserting products:', err.message);
-//     res.status(500).send('Server error');
-//   }
-// }
 
 // Get all categories
 exports.getAllCategories = async (req, res) => {
@@ -144,80 +116,108 @@ exports.getAllCategories = async (req, res) => {
   }
 };
 
-exports.getElasticSearch =  async (req, res) => {
-  try { 
-
-    const page = parseInt(req.query.page)||1;
-    const pageSize = parseInt(req.query.pageSize)||6; 
-    const search = req.query.search || "";
-    // console.log(search);
-    // if (search==" "){ search="";}
+exports.getElasticSearch = async (req, res) => {
+  const page = parseInt(req.query.page)||1;
+    const pageSize = parseInt(req.query.pageSize)||6;  
     const startIndex = (page - 1) * pageSize;
     const endIndex = page * pageSize;  
-    const response = await client.search({
-      index: 'products',
-      body: {
-        size:100,
-        query: { 
-          bool: {
-            should: [
-              {
-                match_phrase_prefix: {
-                  product_name: search// Match productName with prefix
-                }
-              },
-              {
-                match_phrase_prefix: {
-                  product_category: search // Match categoryName with prefix (add more fields as needed)
-                }
-              },
-              {
-                match_phrase_prefix: {
-                  description: search // Match categoryName with prefix (add more fields as needed)
-                }
-              },
-              
-            ]
-          }
-          
-        }
-      }
-    });   
-    const products = response.hits.hits.map(hit => hit._source);  
-    const totalCount =products.length;  
-    const totalPages = Math.ceil(totalCount/ pageSize);
-    const updatedProducts = products.slice(startIndex,endIndex)
+  const processedQuery = req.query.search || ''; // Default to an empty string if undefined
 
-    if (updatedProducts && updatedProducts.length > 0) {
-      res.status(200).json({updatedProducts,totalPages});
-    } else {
-      res.status(404).json({ error: 'No results found' });
-    }
-  } catch (error) {
-    res.status(500).json({ error: error.message });
+  if (!processedQuery) {
+    return res.status(400).json({ error: 'Search term is required.' });
   }
-}
-// Search products by name, category, or description
-exports.searchProducts = async (req, res) => {
-  const { query } = req.query;
+
+  // Regular expressions to extract price conditions and their values
+  const priceConditionMatch = processedQuery.match(/(above|below|greater than|less than|gt|lt|at|under|over)\s*(\d+)/i);
+  let rangeCondition = null;
+  let priceValue = null;
+
+  // Determine the range condition and price value if present
+  if (priceConditionMatch) {
+    const condition = priceConditionMatch[1].toLowerCase();
+    priceValue = parseInt(priceConditionMatch[2], 10);
+    
+    // Map user-friendly terms to Elasticsearch conditions
+    rangeCondition = condition === 'above' || condition === 'greater than' || condition === 'gt' || condition === 'over'
+      ? 'gt' 
+      : 'lt'; 
+  }
+ 
+  const body = {
+    query: {
+      bool: {
+        must: [
+          {
+            multi_match: {
+              query: processedQuery.replace(/(above|below|greater than|less than|gt|lt|under|over)\s*\d+/i, '').trim(),
+              fields: [
+                'product_name^2', 
+                'product_category^1',  
+                'description'  
+              ],
+              type: 'most_fields'  ,
+              fuzziness: '1'
+            },
+          },
+        ],
+        ...(rangeCondition && {
+          filter: {
+            range: {
+              discount_price: {
+                [rangeCondition]: priceValue,
+              },
+            },
+          },
+        }),
+      },
+    },
+    // Add aggregations for category suggestions
+ 
+    size: 50, // Limit the number of search results returned
+  };
+
+ 
 
   try {
-    // Perform case-insensitive search on product_name, product_category, and description
-    const products = await Product.find({
-      $or: [
-        { product_name: { $regex: query, $options: 'i' } },
-        { product_category: { $regex: query, $options: 'i' } },
-        { description: { $regex: query, $options: 'i' } },
-      ],
+    // Perform the search using the Elasticsearch client
+    const  searchResponse  = await client.search({
+      index: 'products',  
+      body,
     });
+    const results = searchResponse.hits.hits.map(hit=>hit._source);
+    const totalCount =results.length;  
+        const totalPages = Math.ceil(totalCount/ pageSize);
+        const updatedProducts =results.slice(startIndex,endIndex)
+    const categorySuggestions = searchResponse.aggregations;
 
-    if (products.length === 0) {
-      return res.status(404).json({ msg: 'No products found' });
-    }
-
-    res.status(200).json(products);
-  } catch (err) {
-    console.error(err.message);
-    res.status(500).send('Server error');
+    return res.json({ updatedProducts, totalPages,categorySuggestions });
+  } catch (error) {
+    console.error('Elasticsearch search error:', error);
+    return res.status(500).json({ error: 'Error fetching results from Elasticsearch' });
   }
 };
+
+// Search products by name, category, or description
+// exports.searchProducts = async (req, res) => {
+//   const { query } = req.query;
+
+//   try {
+//     // Perform case-insensitive search on product_name, product_category, and description
+//     const products = await Product.find({
+//       $or: [
+//         { product_name: { $regex: query, $options: 'i' } },
+//         { product_category: { $regex: query, $options: 'i' } },
+//         { description: { $regex: query, $options: 'i' } },
+//       ],
+//     });
+
+//     if (products.length === 0) {
+//       return res.status(404).json({ msg: 'No products found' });
+//     }
+
+//     res.status(200).json(products);
+//   } catch (err) {
+//     console.error(err.message);
+//     res.status(500).send('Server error');
+//   }
+// };

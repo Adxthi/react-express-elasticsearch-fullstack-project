@@ -35,7 +35,7 @@ const Home = () => {
         <div className="nav-buttons">
           <button onClick={() => navigate('/categories')} className="nav-button">Categories</button>
           <button onClick={() => navigate('/all-products')} className="nav-button">All Products</button>
-          <button onClick={handleLogout} className="logout-button">Logout</button>
+          <button onClick={() =>navigate('/signin')} className="logout-button">Logout</button>
         </div>
       </header>
 
